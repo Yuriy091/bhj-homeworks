@@ -20,16 +20,28 @@ for ( i = 1; i <= 10; i++ ) {
         if (counterDead === 10) {
           
             alert ('Вы победили!');
-            counterDead = 0;
-            counterLost = 0;
-            dead.textContent = counterDead;
+            counter();
+            // counterDead = 0;
+            // counterLost = 0;
+            // dead.textContent = counterDead;
+            // lost.textContent = counterLost;
         }
         if (counterLost === 10) {
             alert('Увы, проиграли!');
-            counterDead = 0;
-            counterLost = 0;
-            dead.textContent = counterDead;
+            counter();
+            // counterDead = 0;
+            // counterLost = 0;
+            // dead.textContent = counterDead;
+            // lost.textContent = counterLost;
         }
     });
 
+}
+
+function counter () {
+    counterDead = 0;
+    counterLost = 0;
+    dead.textContent = counterDead;
+    lost.textContent = counterLost;
+    
 }
