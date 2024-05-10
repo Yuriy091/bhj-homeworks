@@ -89,7 +89,7 @@ class Game {
     this.currentSymbol = this.wordElement.querySelector('.symbol_current');
   }
 }
-
+// 
 new Game(document.getElementById('game'))
 
 
