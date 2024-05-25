@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function openDropdown() {
-        list.classList.add('dropdown__list_active');
+        list.classList.toggle('dropdown__list_active');
     }
 
     function hideDropdown() {
